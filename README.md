@@ -1,7 +1,7 @@
 # Scout24 IT Principles
 
 ### History
-This are the guiding principles that we came up with during our [Project Tatsu](http://inside.autoscout24.com/project_tatsu/2015/01/04/autoscout24-changes-technology-aws-linux-jvm/). We learned that those principles are valuable and later used them to drive the cultural alignment between ImmobilienScout24 and AutoScout24. As a result we now have common *Scout24 IT Principles*.
+This are the guiding principles that we came up with during our [Project Tatsu](http://techblog.scout24.com/2015/01/autoscout24-changes-technology/). We learned that those principles are valuable and later used them to drive the cultural alignment between ImmobilienScout24 and AutoScout24. As a result we now have common *Scout24 IT Principles*.
 
 The first team in project Tatsu was closely aligned on how we should approach "microservices in the cloud". When more and more teams joined Tatsu, previously obvious decisions, became harder to explain. And decisions by new members were in conflict with our implicit understanding, of how things should work. So we made our implicit understanding explicit and created our principles.
 
