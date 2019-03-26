@@ -1,33 +1,69 @@
-# Scout24 IT Principles
+# Scout24 Engineering Values and Principles
 
-### History
-This are the guiding principles that we came up with during our [Project Tatsu](http://techblog.scout24.com/2015/01/autoscout24-changes-technology/). We learned that those principles are valuable and later used them to drive the cultural alignment between ImmobilienScout24 and AutoScout24. As a result we now have common *Scout24 IT Principles*.
+## About
 
-The first team in project Tatsu was closely aligned on how we should approach "microservices in the cloud". When more and more teams joined Tatsu, previously obvious decisions, became harder to explain. And decisions by new members were in conflict with our implicit understanding, of how things should work. So we made our implicit understanding explicit and created our principles.
+Welcome to v3 of the Scout24 Engineering Values and Principles (previously
+"[Scout24 IT
+Principles](https://github.com/Scout24/scout24-it-principles/tree/v2.1)").
 
-### Usage
-The value of those principles comes from the common understanding they create and the guidance they provide around new ideas and solutions. We can avoid deadlocks and lengthy discussions.
+The motivation for documenting our values and principles is to have a common
+understanding of what is important in how we approach engineering in the Scout24
+group and its subsidiaries ImmobilienScout24 and AutoScout24.
 
-To create a common understanding, we regularly talk about them. New colleagues get an introduction to the principles. We print them on big papers and pin them to the walls.
+Aside from this readme, there are two documents which are best read in order:
+ 1. [Engineering Values](1-engineering-values.md). These are high level
+    statements of what we value across Scout24 engineering.
+ 2. [Engineering Principles](2-engineering-principles.md). These are the more
+    concrete behavioral outcomes of our values.
 
-We also constantly evolve our principles. We value feedback and change proposals.
+Within these documents, there is no intentional ordering for the purposes of
+emphasis or priority. You should read each value and principle as being of equal
+value to those above and below.
 
-### Disclaimer for non Scout24 employees
-These are the Scout24 IT Principles. Don't just copy them! Some of the principles might be considered common sense for a microservices architecture and are generic enough to be reused. Your culture is different and the journey is valuable. So please take the time, to come up with your own principles :-).
+## Changes
 
-**Make your own. Keep evolving.**
+As noted above, this is v3. Those with a math(s) background will deduce there
+must exist a v2. Those people would be right and v2 can still be found
+[here](https://github.com/Scout24/scout24-it-principles/tree/v2.1).
+
+Versions 1 & 2 were authored by the staff at AutoScout24 and emphasized what was
+important to that team in 2016. v3 reflects how we’ve evolved and was
+co-authored by the Principal and Distinguished Engineers at Scout24, AutoScout24
+and ImmobilienScout24 with significant input from their colleagues across the
+engineering organization.
+
+Compared to v2, v3 has significant differences in content and structure:
+
+ * We have introduced explicit "values" for engineering across Scout24,
+   AutoScout24 and ImmobilienScout24. These values drive our updated principles.
+ * We have reformatted the text into paragraphs with more detail. This
+   formatting also allows easier contribution through clearer diffs in pull
+   requests.
+ * Due to the increased content, we've put the values and principles in their
+   own files. The principles include references to the motivating values.
+ * The most prominent content changes compared to v2 are:
+    - Numerous references to the "platform". We want to take advantage of
+      Scout24's scale for greater efficiency through use of common platforms.
+    - Emphasis on the importance of people movement and being able to work on
+      multiple stacks.
+    - As a result of the above, we've placed greater emphasis on the value of a
+      broad skillset and deemphasized mastery.
+    - Removal of prescribed team structures.
+    - Removal of "mobile first". We no longer need to make this statement as it
+      is taken for granted.
+    - Rewritten explanations of the values/principles that remain common between
+      v2 and v3.
+ * This readme is now just a readme.
 
 
-### Principles as markdown
-PowerPoint and PDF files can be found in the repository.
+## How to interact
 
-This is quick transfer into markdown:
+These documents contain contributions from across all levels of Scout24
+engineering. We'd like to continue maintaining them in that way so...
 
-| STRATEGIC GOALS<br>Goals of the business side| ARCHITECTURALPRINCIPLES<br>High-Level Principles | DESIGN AND DELIVERY PRINCIPLES<br>Tactical measures |
-|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| REDUCE TIME TO MARKET<br>Establish fast feedback loops to learn, validate and improve. Remove friction, hand-offs and undifferentiated work.| ORGANIZED AROUND BUSINESS CAPABILITIES<br>Build teams around products not projects. Follow the domain and respect bounded contexts. Make boundaries explicit. Inverse Conway Maneuver. | YOU BUILT IT, YOU RUN IT<br>The team is responsible for shaping, building, running and maintaining its products. Fast feedback from live and customers helps us to continuously improve. |
-| SUPPORT DATA-DRIVEN DECISIONS<br>Provide relevant metrics and data for user and market insights. Validate hypothesis for problems worth solving. | ELIMINATE ACCIDENTAL COMPLEXITY<br>Strive to keep it simple. Don’t over-engineer. Focus on necessary domain complexity. | CROSS-FUNCTIONAL TEAMS<br>Engineers from all backgrounds work together in collaborative teams as engineers and share responsibilities. No silos.|
-| MOBILE FIRST<br>Start small and use device capabilities. | LOOSELY COUPLED<br>By default avoid sharing and tight coupling. No integration database. Don’t create the next monolith.| AUTONOMOUS TEAMS<br>Make fast local decisions. Be responsible. Know your boundaries. Share findings.|
-| BEST TALENT<br>Autonomy, Purpose and Mastery: We know why we do things, we decide how to approach them and deliberately practice our skills.| MACRO AND MICRO ARCHITECTURE<br>Clear separation. Autonomous micro services within the rules and constraints of the macro architecture.| BE BOLD<br>Go into production early. Value monitoring over tests. Fail fast, recover and learn. Optimize for MTTR not MTBF.|
-| COST EFFICIENCY<br>Run your segment in the right balance of cost and value.| SECURITY, COMPLIANCE AND DATA PRIVACY<br>Build with least privilege and data privacy in mind. Know your threat model. Limit blast radius.| DATA-DRIVEN / METRIC-DRIVEN<br>Collect business and operational metrics. Analyze, alert and act on them.|
-|ONE SCOUT IT<br>Foster collaboration. Harmonize and standardize tools. Pull common capabilities into decoupled platform services.| AWS FIRST<br>Favor AWS platform service over managed service, over self-hosted OSS, over self built solutions.| INFRASTRUCTURE AS CODE<br>Automate everything: Reproducible, traceable, auditable and tested. Immutable servers.|
+ * If you have a question, create an issue.
+ * If you have a suggestion, create a pull request.
+
+Issues and pull requests will be reviewed by the Principal and Distinguished
+Engineers in the Scout24 group, who are responsible for keeping this up to date,
+and you'll get feedback. Too easy!
