@@ -12,7 +12,7 @@
 - [You build it, you run it](#you-build-it-you-run-it)
 - [Eliminate accidental complexity](#eliminate-accidental-complexity)
 - [Apply principle of least privileges](#apply-principle-of-least-privileges)
-- [Data is a Shared Asset](#data-is-a-shared-asset)
+- [Data is a shared asset](#data-is-a-shared-asset)
 
 
 [Company over team over individual]: 1-engineering-values.md#company-over-team-over-individual
@@ -204,7 +204,7 @@ demonstrate clear ownership and accountability.
 - [Security and reliability]
 - [Full ownership and clear responsibility]
 
-## Data is a Shared Asset
+## Data is a shared asset
 
 We treat data as a shared asset to ensure all permitted staff have a complete
 view of the company performance. Doing so allows Scout24 employees to generate
