@@ -67,3 +67,6 @@ engineering. We'd like to continue maintaining them in that way so...
 Issues and pull requests will be reviewed by the Principal and Distinguished
 Engineers in the Scout24 group, who are responsible for keeping this up to date,
 and you'll get feedback. Too easy!
+
+## License
+[Creative commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)
