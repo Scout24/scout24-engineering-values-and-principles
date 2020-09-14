@@ -89,10 +89,11 @@ part of our safety net. We optimize for
 ## Minimize technology variation
 
 We deliberately minimize the variety of technologies in our system to drive
-efficiency, and, at the same time, have a managed program of innovation. To
-achieve this, we monitor actual technologies in use, gravitate to those most
-appropriately addressing the given challenges and selectively experiment with
-new technologies to find those that will improve our products.
+efficiency, and, at the same time, have a managed program of innovation.
+To achieve this, we monitor current technologies in use,
+gravitate to those that most appropriately address the given challenges
+and selectively experiment with new technologies
+to find those that will improve our products.
 
 ### Motivating values
 
