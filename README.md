@@ -49,8 +49,8 @@ Compared to v2, v3 has significant differences in content and structure:
     - As a result of the above, we've placed greater emphasis on the value of a
       broad skillset and deemphasized mastery.
     - Removal of prescribed team structures.
-    - Removal of "mobile first". We no longer need to make this statement as it
-      is taken for granted.
+    - Removal of "mobile first". We no longer need to make this statement because 
+      it should be assumed.
     - Rewritten explanations of the values/principles that remain common between
       v2 and v3.
  * This readme is now just a readme.
