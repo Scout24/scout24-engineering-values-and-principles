@@ -195,9 +195,8 @@ from and actively reduce complexity that develops over time.
 
 ## Apply principle of least privileges
 
-Security is important to us. We segregate permissions and responsibilities by
-applying the principle of least privileges to functional or human principals. We
-do this in order to reduce the blast radius of security incidents and to
+Security is important to us. 
+We apply the principle of least privilege in order to reduce the blast radius of security incidents and to
 demonstrate clear ownership and accountability.
 
 ### Motivating values
