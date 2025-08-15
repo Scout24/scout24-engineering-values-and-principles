@@ -3,22 +3,14 @@ name: "Security Static Analysis"
 on:
   pull_request: {}
   workflow_dispatch: {}
-  push:
-    branches:
-    - main
-    - master
   schedule:
-  - cron: '9 10 22 * *'
+  - cron: '3 23 13 * *'
 jobs:
   scan:
-    name: "Security Static Analysis"
-    runs-on: ubuntu-latest
+    uses: scout24/s24-sast-action/.github/workflows/security-analysis.yml@v3
 
-    # Skip any PR created by dependabot:
-    if: (github.actor != 'dependabot[bot]')
-
-    steps:
-    - uses: scout24/s24-sast-action@v2
-      with:
-        SEMGREP_APP_TOKEN: ${{ secrets.SEMGREP_APP_TOKEN }}
+    secrets:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      SEMGREP_APP_TOKEN: ${{ secrets.SEMGREP_APP_TOKEN }}
+      GITLEAKS_LICENSE: ${{ secrets.GITLEAKS_LICENSE }}
 
